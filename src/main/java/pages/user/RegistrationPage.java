@@ -34,34 +34,42 @@ public class RegistrationPage extends BasePage {
     @FindBy(css = "footer button")
     private WebElement saveBtn;
 
-    public void setRandomGender(){
+    public RegistrationPage setRandomGender() {
         getRandomElement(genderInputs);
+        return this;
     }
 
-    public void setFirstName(String name){
-        sendKeys(firstName,name);
+    public RegistrationPage setFirstName(String name) {
+        sendKeys(firstName, name);
+        return this;
     }
 
-    public void setLastName(String name){
-        sendKeys(lastName,name);
+    public RegistrationPage setLastName(String name) {
+        sendKeys(lastName, name);
+        return this;
     }
 
-    public void setEmail(String email){
-        sendKeys(this.email,email);
+    public RegistrationPage setEmail() {
+        int random = (int)(Math.random()*1000);
+        sendKeys(email,"mail"+random+"@gmail.com");
+        return this;
     }
 
-    public void setPassword(String password){
-        sendKeys(this.password,password);
+    public RegistrationPage setPassword(String password) {
+        sendKeys(this.password, password);
+        return this;
     }
 
-    public void setAllCheckboxes(){
-        for (WebElement checbox:checkboxList){
+    public RegistrationPage setAllCheckboxes() {
+        for (WebElement checbox : checkboxList) {
             checbox.click();
         }
+        return this;
     }
 
-    public void submitForm(){
+    public RegistrationPage submitForm() {
         click(saveBtn);
+        return this;
     }
 
 }

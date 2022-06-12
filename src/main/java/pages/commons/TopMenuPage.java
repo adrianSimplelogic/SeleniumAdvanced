@@ -23,6 +23,12 @@ public class TopMenuPage extends BasePage {
     @FindBy(css = "button[type='submit']")
     private WebElement searchInputSubmitButton;
 
+    @FindBy(css = ".user-info .account")
+    private WebElement myAccount;
+
+    @FindBy(css = "#history-link")
+    private WebElement orderHistory;
+
     public void clickSignInBtn(){
         click(signInBtn); //metoda z BasePage
     }
@@ -37,6 +43,16 @@ public class TopMenuPage extends BasePage {
 
     public void searchSubmit(){
         click(searchInputSubmitButton);
+    }
+
+    public TopMenuPage clickMyAccount(){
+        click(myAccount);
+        return this;
+    }
+
+    public TopMenuPage clickOrderHistory(){
+        click(orderHistory);
+        return this;
     }
 
 }

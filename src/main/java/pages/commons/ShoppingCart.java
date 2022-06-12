@@ -28,6 +28,9 @@ public class ShoppingCart extends BasePage {
     @FindBy(css = ".no-items")
     private WebElement removeConfiramtion;
 
+    @FindBy(css = ".checkout a")
+    private WebElement checkoutBtn;
+
     public void checkProductName(String name){
         Assert.assertEquals(producktName.getText(),name);
     }
@@ -51,5 +54,10 @@ public class ShoppingCart extends BasePage {
     public void emptyCartConfirmed(String confiramtion){
         waitToBeVisible(removeConfiramtion);
         Assert.assertEquals(removeConfiramtion.getText(),confiramtion);
+    }
+
+    public ShoppingCart clickCheckoutInTheCart(){
+        click(checkoutBtn);
+        return this;
     }
 }

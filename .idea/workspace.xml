@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2802e6f3-a7f8-4add-9bc6-7be1116857d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/ProductCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/SearchResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/TopMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/user/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/user/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/HomeworkPop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/user/RegistrationTests.java" afterDir="false" />
+    <list default="true" id="2802e6f3-a7f8-4add-9bc6-7be1116857d4" name="Changes" comment="Dodanie zadania 02 i 03">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Checkout/AddressCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Checkout/ConfirmationChecoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Checkout/PaymentsCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Checkout/PersonalInfoCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/Checkout/ShippingCheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/commons/CategoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/user/HistoryOfOrdersPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/user/MyAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/user/OrderDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Products/CategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/Pages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/user/checkoutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/commons/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/commons/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/commons/TopMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/commons/TopMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/user/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/user/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/HomeworkPop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/HomeworkPop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +52,40 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.folding"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.HomeworkPop.shouldAddCheckAndRemoveItemFromCart">
-    <configuration name="HomeworkPop.searchForProduct" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CategoryTest.shouldCheckSubcategoriesClothes">
+    <configuration name="CategoryTest.shoudlCheckAllCategorys" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumAdvanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="user.*" />
+          <option name="PATTERN" value="Products.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.HomeworkPop" />
-      <option name="METHOD_NAME" value="searchForProduct" />
+      <option name="PACKAGE_NAME" value="Products" />
+      <option name="MAIN_CLASS_NAME" value="Products.CategoryTest" />
+      <option name="METHOD_NAME" value="shoudlCheckAllCategorys" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryTest.shouldCheckSubcategoriesClothes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Products.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Products" />
+      <option name="MAIN_CLASS_NAME" value="Products.CategoryTest" />
+      <option name="METHOD_NAME" value="shouldCheckSubcategoriesClothes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,11 +129,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="checkoutTest.shouldChecokoutPositve" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.checkoutTest" />
+      <option name="METHOD_NAME" value="shouldChecokoutPositve" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeworkPop.shouldAddCheckAndRemoveItemFromCart" />
-        <item itemvalue="TestNG.HomeworkPop.searchForProduct" />
+        <item itemvalue="TestNG.CategoryTest.shouldCheckSubcategoriesClothes" />
+        <item itemvalue="TestNG.CategoryTest.shoudlCheckAllCategorys" />
+        <item itemvalue="TestNG.checkoutTest.shouldChecokoutPositve" />
         <item itemvalue="TestNG.RegistrationTests.shouldRegisterNewUser" />
+        <item itemvalue="TestNG.HomeworkPop.shouldAddCheckAndRemoveItemFromCart" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1653826403038</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dodanie zadania 02 i 03">
+      <created>1654375435519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654375435519</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,15 +187,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/user/HomeworkPop.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodanie zadania 02 i 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie zadania 02 i 03" />
   </component>
 </project>
